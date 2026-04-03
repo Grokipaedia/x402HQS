@@ -28,4 +28,4 @@ IBA is the cryptographic authorization gate that makes it safe for agents.
 Built for developers who want agentic commerce that is **safe by default**.
 
 Contact: IBA@intentbound.com  
-GitHub: github.com/YOURUSERNAME/x402HQS
+GitHub: https://github.com/YOURUSERNAME/x402HQS
