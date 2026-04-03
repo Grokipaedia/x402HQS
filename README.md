@@ -3,24 +3,24 @@
 **Safe Agentic Payments Stack**
 
 x402 is the open payment rail (HTTP 402).  
-IBA is the cryptographic authorization gate that makes it safe for agents.
+IBA is the cryptographic authorization gate that makes agent payments safe and auditable.
 
 ### Neutral & Open Governance
 x402HQS operates as a **vendor-agnostic resource hub**.  
 
-As of April 2, 2026, the **x402 Foundation** launched under the **Linux Foundation**, with the protocol contributed by Coinbase and broad industry support (Cloudflare, Stripe, Google, AWS, Visa, Mastercard, Circle, Shopify, Solana Foundation, and others). This establishes x402 as a neutral, community-governed standard for internet-native payments.
+As of April 2, 2026, the **x402 Foundation** officially launched under the **Linux Foundation**. The protocol was contributed by Coinbase with broad industry support from Cloudflare, Stripe, Google, AWS, Visa, Mastercard, Circle, Shopify, Solana Foundation, and others. This marks x402 as a neutral, community-governed standard for internet-native machine-to-machine payments.
 
-We focus exclusively on the **authorization and audit layer** (IBA + WitnessBound) so agents can pay safely without vendor lock-in or unauthorized drains.
+We focus exclusively on the **authorization and audit layer** (IBA + WitnessBound) to prevent unauthorized drains, scope creep, and ensure compliance — the missing piece for safe agentic commerce.
 
 ### Core Layers
 - **x402**: Instant stablecoin micropayments via HTTP  
 - **IBA (Intent Bound Authorization)**: Signed intent certificates with hard bounds, payee lists, spend caps, and shard token delegation  
 - **WitnessBound**: Immutable audit records
 
-### Live Demos (HTML, no login)
+### Live Demos (HTML, no login required)
 - Full x402 + IBA stack: https://x402hqs.com/x402-html/
 - Shard token delegation: https://intentbound.com/shard-html/
-- More examples: aipayhq.com/402-html/
+- Additional examples: aipayhq.com/402-html/
 
 ### Repository Structure
 - `iba-spec/` — Formal specification (intent certificates, bounds, shard tokens, WitnessBound)
